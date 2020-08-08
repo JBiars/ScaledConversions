@@ -46,8 +46,8 @@ language_s = list(language.values())
 spatial_t = list(spatial.keys())
 spatial_s = list(spatial.values())
 
-memory_t = list(motor.keys())
-memory_s = list(motor.values())
+memory_t = list(memory.keys())
+memory_s = list(memory.values())
 
 attention_t = list(attention.keys())
 attention_s = list(attention.values())
