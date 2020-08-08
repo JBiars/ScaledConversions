@@ -31,7 +31,6 @@ print("Press 1 to enter a new", domain, "test.")
 print("When you have added all the", domain, "tests administered, press 0.")
 
 response1 = int(input("Enter: "))
-print(response1)
 print()
 
 # Error if user inputs a number other than 1 or 0
@@ -67,7 +66,6 @@ while (response1 == 1):
     if (response1 > 1):
         print("ERROR!")
         response1 = int(input("Enter: "))
-        print(response1)
         print()  
      
 print()
@@ -90,14 +88,12 @@ print("Press 1 to enter a new", domain, "test.")
 print("When you have added all the", domain, "tests administered, press 0.")
 
 response2 = int(input("Enter: "))
-print(response2)
 print()
 
 # Error if user inputs a number other than 1 or 0
 if (response2 > 1):
     print("ERROR!")
     response2 = int(input("Enter: "))
-    print(response2)
     print()
     
 while (response2 == 1):
@@ -125,7 +121,6 @@ while (response2 == 1):
     if (response2 > 1):
         print("ERROR!")
         response2 = int(input("Enter: "))
-        print(response2)
         print()
      
 print()
@@ -146,14 +141,12 @@ print("Press 1 to enter a new", domain, "test.")
 print("When you have added all the", domain, "tests administered, press 0.")
 
 response3 = int(input("Enter: "))
-print(response3)
 print()
 
 # Error if user inputs a number other than 1 or 0
 if (response3 > 1):
     print("ERROR!")
-    response3 = int(input("Enter: "))
-    print(response3)
+    response3 = int(input("Enter: "))    
     print()
     
 while (response3 == 1):
@@ -182,8 +175,7 @@ while (response3 == 1):
 
     if (response3 > 1):
         print("ERROR!")
-        response3 = int(input("Enter: "))
-        print(response3)
+        response3 = int(input("Enter: "))        
         print()
      
 print()
@@ -206,14 +198,12 @@ print("Press 1 to enter a new", domain, "test.")
 print("When you have added all the", domain, "tests administered, press 0.")
 
 response4 = int(input("Enter: "))
-print(response4)
 print()
 
 # Error if user inputs a number other than 1 or 0
 if (response4 > 1):
     print("ERROR!")
     response4 = int(input("Enter: "))
-    print(response4)
     print()
     
 while (response4 == 1):
@@ -241,7 +231,6 @@ while (response4 == 1):
     if (response4 > 1):
         print("ERROR!")
         response4 = int(input("Enter: "))
-        print(response4)
         print()
      
 print()
@@ -263,14 +252,12 @@ print("Press 1 to enter a new", domain, "test.")
 print("When you have added all the", domain, "tests administered, press 0.")
 
 response5 = int(input("Enter: "))
-print(response5)
 print()
 
 # Error if user inputs a number other than 1 or 0
 if (response5 > 1):
     print("ERROR!")
     response5 = int(input("Enter: "))
-    print(response5)
     print()
     
 while (response5 == 1):
@@ -298,7 +285,6 @@ while (response5 == 1):
     if (response5 > 1):
         print("ERROR!")
         response5 = int(input("Enter: "))
-        print(response5)
         print()
      
 print()
@@ -311,13 +297,11 @@ print()
 
 print("Do you need to add any additional tests?")
 edits = int(input("Press 1 for yes. Press 0 for no."))
-print(edits)
 print()
 
 if (edits > 1):
     print("ERROR!")
     edits = int(input("Enter: "))
-    print(edits)
     print()
 
 while (edits == 1):
@@ -339,14 +323,12 @@ while (edits == 1):
         print("Press 1 to enter a new", domain, "test.") 
         print("When you have added all the", domain, "tests administered, press 0.")
 
-        response1 = int(input("Enter: "))
-        print(response1)
+        response1 = int(input("Enter: "))        
         print()
 
         if (response1 > 1):
             print("ERROR!")
-            response1 = int(input("Enter: "))
-            print(response1)
+            response1 = int(input("Enter: "))            
             print()
     
         while (response1 == 1):
@@ -372,7 +354,6 @@ while (edits == 1):
             if (response5 > 1):
                 print("ERROR!")
                 response5 = int(input("Enter: "))
-                print(response5)
                 print()
      
         print()
@@ -391,14 +372,12 @@ while (edits == 1):
         print("Press 1 to enter a new", domain, "test.") 
         print("When you have added all the", domain, "tests administered, press 0.")
 
-        response2 = int(input("Enter: "))
-        print(response2)
+        response2 = int(input("Enter: "))        
         print()
 
         if (response2 > 1):
             print("ERROR!")
-            response2 = int(input("Enter: "))
-            print(response2)
+            response2 = int(input("Enter: "))            
             print()
     
         while (response2 == 1):
@@ -423,8 +402,7 @@ while (edits == 1):
 
             if (response2 > 1):
                 print("ERROR!")
-                response2 = int(input("Enter: "))
-                print(response2)
+                response2 = int(input("Enter: "))                
                 print()
      
         print()
@@ -443,14 +421,12 @@ while (edits == 1):
         print("Press 1 to enter a new", domain, "test.") 
         print("When you have added all the", domain, "tests administered, press 0.")
 
-        response3 = int(input("Enter: "))
-        print(response3)
+        response3 = int(input("Enter: "))       
         print()
 
         if (response3 > 1):
             print("ERROR!")
-            response3 = int(input("Enter: "))
-            print(response3)
+            response3 = int(input("Enter: "))          
             print()
     
         while (response3 == 1):
@@ -477,8 +453,7 @@ while (edits == 1):
 
             if (response3 > 1):
                 print("ERROR!")
-                response3 = int(input("Enter: "))
-                print(response3)
+                response3 = int(input("Enter: "))                
                 print()
      
         print()
@@ -504,7 +479,6 @@ while (edits == 1):
         if (response4 > 1):
             print("ERROR!")
             response4 = int(input("Enter: "))
-            print(response4)
             print()
     
         while (response4 == 1):
@@ -530,7 +504,6 @@ while (edits == 1):
             if (response4 > 1):
                 print("ERROR!")
                 response4 = int(input("Enter: "))
-                print(response4)
                 print()
      
         print()
@@ -583,7 +556,6 @@ while (edits == 1):
             if (response5 > 1):
                 print("ERROR!")
                 response5 = int(input("Enter: "))
-                print(response5)
                 print()
      
         print()
