@@ -568,18 +568,7 @@ while (edits == 1):
         edits = int(input("Press 1 for yes. Press 0 for no."))
         print(edits)
         print()
-    else:
-       #Final Else is an error message in case users enter a number not associated with a domain
-        print("ERROR!")
-        print()
-        print("Find the number associated with the domain you wish to edit.")
-        print("You will enter the NUMBER below. Not the name.")
-        print()
-    
-        print(domains)
-        print()
-        edit_domain = int(input("Enter Domain: "))
-
+   
 print("Test Entry Complete.")
 
 # Make new nested dictionary of the tests and their score types
