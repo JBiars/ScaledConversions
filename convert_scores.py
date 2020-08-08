@@ -397,15 +397,15 @@ for d in language_c:
 
 #Create Domain labels with room to fill in data
 
-worksheet1.write(0, 0, "Domain:")
-worksheet1.write(0, 1, "Spatial")
+worksheet2.write(0, 0, "Domain:")
+worksheet2.write(0, 1, "Spatial")
 
 #Create  Labels
 
-worksheet1.write(1, 0, "Tests Administered:")
-worksheet1.write(1, 1, "Score Type:")
-worksheet1.write(1, 2, "Patient Score:")
-worksheet1.write(1, 3, "Converted Scaled Score:")
+worksheet2.write(1, 0, "Tests Administered:")
+worksheet2.write(1, 1, "Score Type:")
+worksheet2.write(1, 2, "Patient Score:")
+worksheet2.write(1, 3, "Converted Scaled Score:")
 
 # Start in next row
 row = 2
@@ -413,42 +413,42 @@ column = 0
 
 #Fill in data
 for a in spatial_t:
-    worksheet1.write(row, column, a)
+    worksheet2.write(row, column, a)
     row = row + 1
 
 row = 2 
 column = 1 
 
 for b in spatial_s:
-    worksheet1.write(row, column, score_types[b])
+    worksheet2.write(row, column, score_types[b])
     row = row + 1
 
 row = 2
 column = 2
 
 for c in spatial_scores:
-    worksheet1.write(row, column, c)
+    worksheet2.write(row, column, c)
     row = row + 1
 
 row = 2
 column = 3
 
 for d in spatial_c:
-    worksheet1.write(row, column, d)
+    worksheet2.write(row, column, d)
     row = row + 1    
 
 
 #Create Domain labels with room to fill in data
 
-worksheet1.write(0, 0, "Domain:")
-worksheet1.write(0, 1, "Memory")
+worksheet3.write(0, 0, "Domain:")
+worksheet3.write(0, 1, "Memory")
 
 #Create  Labels
 
-worksheet1.write(1, 0, "Tests Administered:")
-worksheet1.write(1, 1, "Score Type:")
-worksheet1.write(1, 2, "Patient Score:")
-worksheet1.write(1, 3, "Converted Scaled Score:")
+worksheet3.write(1, 0, "Tests Administered:")
+worksheet3.write(1, 1, "Score Type:")
+worksheet3.write(1, 2, "Patient Score:")
+worksheet3.write(1, 3, "Converted Scaled Score:")
 
 # Start in next row
 row = 2
@@ -456,42 +456,42 @@ column = 0
 
 #Fill in data
 for a in memory_t:
-    worksheet1.write(row, column, a)
+    worksheet3.write(row, column, a)
     row = row + 1
 
 row = 2 
 column = 1 
 
 for b in memory_s:
-    worksheet1.write(row, column, score_types[b])
+    worksheet3.write(row, column, score_types[b])
     row = row + 1
 
 row = 2
 column = 2
 
 for c in memory_scores:
-    worksheet1.write(row, column, c)
+    worksheet3.write(row, column, c)
     row = row + 1
 
 row = 2
 column = 3
 
 for d in memory_c:
-    worksheet1.write(row, column, d)
+    worksheet3.write(row, column, d)
     row = row + 1
 
 
 #Create Domain labels with room to fill in data
 
-worksheet1.write(0, 0, "Domain:")
-worksheet1.write(0, 1, "Attention")
+worksheet4.write(0, 0, "Domain:")
+worksheet4.write(0, 1, "Attention")
 
 #Create  Labels
 
-worksheet1.write(1, 0, "Tests Administered:")
-worksheet1.write(1, 1, "Score Type:")
-worksheet1.write(1, 2, "Patient Score:")
-worksheet1.write(1, 3, "Converted Scaled Score:")
+worksheet4.write(1, 0, "Tests Administered:")
+worksheet4.write(1, 1, "Score Type:")
+worksheet4.write(1, 2, "Patient Score:")
+worksheet4.write(1, 3, "Converted Scaled Score:")
 
 # Start in next row
 row = 2
@@ -499,42 +499,42 @@ column = 0
 
 #Fill in data
 for a in attention_t:
-    worksheet1.write(row, column, a)
+    worksheet4.write(row, column, a)
     row = row + 1
 
 row = 2 
 column = 1 
 
 for b in attention_s:
-    worksheet1.write(row, column, score_types[b])
+    worksheet4.write(row, column, score_types[b])
     row = row + 1
 
 row = 2
 column = 2
 
 for c in attention_scores:
-    worksheet1.write(row, column, c)
+    worksheet4.write(row, column, c)
     row = row + 1
 
 row = 2
 column = 3
 
 for d in attention_c:
-    worksheet1.write(row, column, d)
+    worksheet4.write(row, column, d)
     row = row + 1
 
 
 #Create Domain labels with room to fill in data
 
-worksheet1.write(0, 0, "Domain:")
-worksheet1.write(0, 1, "Executive Function")
+worksheet5.write(0, 0, "Domain:")
+worksheet5.write(0, 1, "Executive Function")
 
 #Create  Labels
 
-worksheet1.write(1, 0, "Tests Administered:")
-worksheet1.write(1, 1, "Score Type:")
-worksheet1.write(1, 2, "Patient Score:")
-worksheet1.write(1, 3, "Converted Scaled Score:")
+worksheet5.write(1, 0, "Tests Administered:")
+worksheet5.write(1, 1, "Score Type:")
+worksheet5.write(1, 2, "Patient Score:")
+worksheet5.write(1, 3, "Converted Scaled Score:")
 
 # Start in next row
 row = 2
@@ -542,28 +542,28 @@ column = 0
 
 #Fill in data
 for a in executive_t:
-    worksheet1.write(row, column, a)
+    worksheet5.write(row, column, a)
     row = row + 1
 
 row = 2 
 column = 1 
 
 for b in executive_s:
-    worksheet1.write(row, column, score_types[b])
+    worksheet5.write(row, column, score_types[b])
     row = row + 1
 
 row = 2
 column = 2
 
 for c in executive_scores:
-    worksheet1.write(row, column, c)
+    worksheet5.write(row, column, c)
     row = row + 1
 
 row = 2
 column = 3
 
 for d in executive_c:
-    worksheet1.write(row, column, d)
+    worksheet5.write(row, column, d)
     row = row + 1
 
 workbook.close()
